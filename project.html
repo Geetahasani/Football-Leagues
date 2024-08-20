@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #3b5571;
+        }
+        
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0ch;
+            width: 100%;
+            height: 100%;
+            background-image: url('image-removebg-preview (12).png');
+            background-repeat: repeat-y;
+            
+            z-index: -1; /* Ensure the background is behind other content */
+            opacity: 0.20;
+            
+           
+        }
+        .overlay{
+            position: absolute;
+            top: 35ch;
+            left: 10ch;
+            width: 37%;
+            height: 35ch;
+            background: transparent;
+            background-color: #657e95;
+            opacity: 0.40;
+            align-items: center;
+            background: rad;
+            border-radius: 5ch;
+            
+
+        }
+        #mainbt{
+            position: absolute;
+            left: 20ch;
+            top: 30ch; 
+            width: 30ch;
+            height: 5ch;
+            background: transparent;
+            
+        }
+        #same{
+            width: 30ch;
+            height: 5ch;
+            background: transparent;
+        }
+        #man {
+            position: absolute;
+            left: 70ch;
+            top: 10ch;
+            transform: rotateY(-20deg); /* 'deg' should be lowercase */
+            opacity: 0.60;
+            width: 1000px; /* Set the desired width */
+            height: auto;
+        }  
+        #title{
+            text-align: left;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: 5ch;
+        }
+        #dash{
+            position: absolute;
+            left: 180ch;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        
+        
+        
+        header {
+            position: relative;
+            top: -2ch;
+            left: -1ch;
+            background: transparent;
+            background-color: #121a27;
+            opacity: 0.60;
+            color: rgb(247, 242, 242);
+            padding: 40px;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li a {
+            color: white;
+            margin-right: 20px;
+        }
+        #lables{
+            color: rgb(240, 237, 233);
+            font-size: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+    
+   <header>
+    <h1 id="title" style="color: rgb(240, 237, 233);">FOOTBALL LEAGUES</h1>
+    <nav style="color: antiquewhite;">
+        <ul>
+            <li> <a href="">Dashboard</a></li>
+            <li> <a href="">Sign-up</a></li>
+            <li> <a href="">Review</a></li>
+        </ul>
+       </nav>   
+</header>
+   
+    <img src="football6-removebg-preview.png" alt="" id="man" />
+    <div class="overlay">
+        <button id="mainbt"> GoLive </button>
+    </div>
+    <div>
+        <pre id="lables" style=" position : absolute ;left:20% ;top: 55ch ; color: white;">
+            Highest quality Leagues in the world
+            Europen Leagues
+        </pre>
+        <button style=" position : absolute ;left:45% ;top: 150ch ;" id="same">Analysis1</button>
+            
+        <pre id="lables" style=" position : absolute ;left:25% ;top: 80ch ;">
+                Indian Space Leagues
+        </pre>
+        <button style=" position : absolute ;left:45% ;top: 200ch ;" id="same">Analysis2</button>
+        <br>
+        <br>
+        <br>
+        <button style=" position : absolute ;left:45% ;top: 250ch ;" id="same">Analysis3</button>
+        <br>
+        <br>
+        <br>
+        <button style=" position : absolute ;left:45% ;top: 300ch ;" id="same">Analysis4</button>
+        <br>
+        <br>
+        <br>
+        <button  style=" position : absolute ;left:45% ;top: 350ch ;" id="same">Analysis5</button>
+    </div>
+    <div style=" position : absolute ;left:0% ;top: 400ch ; background-color: #3b5571; background: transparent;  background-color: #3e4e67;opacity: 0.30;">
+        <pre style="color: rgb(240, 237, 233); font-size: 30px;">
+            Explore Foot-Ball
+        </pre>
+        
+        <iframe width="300px" height="300px" src="https://www.youtube.com/embed/-4iZX0ZfjIU?autoplay=1&mute=1" frameborder="10"></iframe>
+        <iframe width="300px" height="300px" src="https://www.youtube.com/embed/-4iZX0ZfjIU?autoplay=1&mute=1" frameborder="10"></iframe>
+        <iframe width="300px" height="300px" src="https://www.youtube.com/embed/-4iZX0ZfjIU?autoplay=1&mute=1" frameborder="10"></iframe>
+        <iframe width="300px" height="300px" src="https://www.youtube.com/embed/-4iZX0ZfjIU?autoplay=1&mute=1" frameborder="10"> </iframe>
+    </div>
+    <div style=" position : absolute ;left:45% ;top: 500ch ;">
+        <pre>
+            Search for Your Favourite Player
+        </pre>
+        <input type="text" placeholder="ex: Ronaldo Cristanio">
+        <a href=""><img src="" alt=""></a>
+        <a href=""><img src="" alt=""></a>
+        <a href=""><img src="" alt=""></a>
+        <a href=""><img src="" alt=""></a>
+        
+    </div>
+    
+</body>
+</html>
